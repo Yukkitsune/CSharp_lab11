@@ -16,7 +16,7 @@ namespace marketContext
         public MarketContext() => Database.EnsureCreated();
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost;Database=MarketDB;User Id=sa;Password=Ha79197742105.;");
+            optionsBuilder.UseSqlServer("Server=localhost;Database=MarketDB;User Id=sa;Password=.;");
         }
     }
 }
